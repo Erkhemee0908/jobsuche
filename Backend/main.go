@@ -13,7 +13,7 @@ import (
 	"github.com/chromedp/chromedp"
 )
 
-func main() {
+func listJobs() {
 	getJobs()
 
 	jobList, err := processJobs("jobs.json")
