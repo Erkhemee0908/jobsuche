@@ -1,0 +1,238 @@
+{
+  "stellenangebote" : [ {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Fachinformatiker/in - Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1191950043-S",
+    "arbeitsort" : {
+      "plz" : "10623",
+      "ort" : "Berlin",
+      "strasse" : "Uhlandstr. 7/8",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5038353,
+        "lon" : 13.3252679
+      },
+      "entfernung" : "7"
+    },
+    "arbeitgeber" : "Fichtner IT Consulting GmbH",
+    "aktuelleVeroeffentlichungsdatum" : "2023-03-09",
+    "modifikationsTimestamp" : "2023-03-09T11:16:42.649",
+    "eintrittsdatum" : "2023-09-01",
+    "logoHashId" : "_6sjeRihKpn0LfhzpSl3J1Nbq8oNvZpJkkq0S-BYvh8=",
+    "hashId" : "gkvFrZtzTsSpZduV_eGrYbWUFMQmIc91KNRab4YX4d4="
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Fachinformatiker:in für Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1193050751-S",
+    "arbeitsort" : {
+      "plz" : "10179",
+      "ort" : "Berlin",
+      "strasse" : "Brückenstr. 5a",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5129194,
+        "lon" : 13.4175987
+      },
+      "entfernung" : "1"
+    },
+    "arbeitgeber" : "IGEPA Business- und IT-Services GmbH",
+    "aktuelleVeroeffentlichungsdatum" : "2023-02-03",
+    "modifikationsTimestamp" : "2023-02-06T08:52:47.853",
+    "eintrittsdatum" : "2023-08-01",
+    "hashId" : "jPXbx9oy3SJ_jxeXAhXjvNR-s2-mIrToGrGAZ7yL2rM="
+  } ],
+  "maxErgebnisse" : 30,
+  "page" : 1,
+  "size" : 2,
+  "woOutput" : {
+    "bereinigterOrt" : "Berlin",
+    "suchmodus" : "UMKREISSUCHE",
+    "koordinaten" : [ {
+      "lat" : 52.51126125,
+      "lon" : 13.4255145
+    } ]
+  },
+  "facetten" : {
+    "befristung" : {
+      "counts" : {
+        "2" : 12,
+        "3" : 18
+      },
+      "maxCount" : 30
+    },
+    "behinderung" : {
+      "counts" : {
+        "false" : 30
+      },
+      "maxCount" : 30
+    },
+    "pav" : {
+      "counts" : {
+        "false" : 30
+      },
+      "maxCount" : 30
+    },
+    "berufsfeld" : {
+      "counts" : {
+        "Informatik" : 1,
+        "Softwareentwicklung und Programmierung" : 29
+      },
+      "maxCount" : 30
+    },
+    "arbeitsort" : {
+      "counts" : {
+        "Berlin" : 30
+      },
+      "maxCount" : 30
+    },
+    "ausbildungsart" : {
+      "counts" : {
+        "0" : 29,
+        "1" : 1
+      },
+      "maxCount" : 30
+    },
+    "veroeffentlichtseit" : {
+      "counts" : {
+        "1" : 1,
+        "14" : 5,
+        "28" : 11,
+        "7" : 1,
+        "alle" : 30
+      },
+      "maxCount" : 30
+    },
+    "schulbildung" : {
+      "counts" : {
+        "2" : 1,
+        "3" : 16,
+        "4" : 6,
+        "6" : 1
+      },
+      "maxCount" : 30
+    },
+    "arbeitsort_plz" : {
+      "counts" : {
+        "07745" : 1,
+        "10115" : 2,
+        "10119" : 1,
+        "10179" : 3,
+        "10243" : 2,
+        "10367" : 1,
+        "10405" : 1,
+        "10407" : 1,
+        "10553" : 2,
+        "10559" : 1,
+        "10587" : 1,
+        "10589" : 1,
+        "10623" : 2,
+        "10625" : 1,
+        "10709" : 1,
+        "10715" : 1,
+        "10785" : 1,
+        "10829" : 1,
+        "10997" : 1,
+        "12099" : 1,
+        "12103" : 1,
+        "12359" : 1,
+        "12435" : 1,
+        "12681" : 1,
+        "13353" : 1,
+        "14478" : 1,
+        "20097" : 1,
+        "26135" : 1,
+        "33605" : 1,
+        "37081" : 1,
+        "44139" : 1,
+        "50679" : 1,
+        "69126" : 1,
+        "75179" : 1
+      },
+      "maxCount" : 30
+    },
+    "arbeitgeber" : {
+      "counts" : {
+        "Abtis GmbH IT-Dienstleistungen" : 1,
+        "Azteka Consulting GmbH" : 1,
+        "BSR Berliner Stadtreinigungsbetriebe Verwaltungsabteilung" : 1,
+        "Berliner Stadtreinigungsbetriebe (BSR)" : 1,
+        "Berliner Wasserbetriebe" : 1,
+        "Beta Systems Software AG" : 1,
+        "Biotronik SE & Co. KG" : 1,
+        "Bundeskriminalamt" : 1,
+        "Computacenter AG & Co. oHG" : 1,
+        "Deutsche Rentenversicherung Bund" : 1,
+        "EES GmbH Entwicklung Elektronischer Systeme" : 1,
+        "Fichtner IT Consulting GmbH" : 1,
+        "GVXL Software GmbH" : 1,
+        "H & H Datenverarbeitungs- und Beratungsgesellschaft mbH" : 1,
+        "IGEPA Business- und IT-Services GmbH" : 2,
+        "KPMG AG Wirtschaftsprüfungsgesellschaft" : 1,
+        "Mercedes-Benz Group AG" : 1,
+        "Moving Intelligence GmbH" : 1,
+        "NEXUS AG" : 1,
+        "NTT Data Business Solutions Global Managed Services GmbH" : 1,
+        "Pixup Media GmbH" : 1,
+        "SIRUP GmbH" : 1,
+        "Samuelson Kassensysteme GmbH (Berlin)" : 1,
+        "form4 GmbH & Co. KG" : 1,
+        "hmp HEIDENHAIN-MICROPRINT GmbH" : 1,
+        "okidu GmbH" : 1,
+        "proofIT GmbH" : 1,
+        "queo GmbH" : 1,
+        "valuemedia ecommerce GmbH" : 1
+      },
+      "maxCount" : 30
+    },
+    "beruf" : {
+      "counts" : {
+        "Fachinformatiker/in - Anwendungsentwicklung" : 29,
+        "Fachinformatiker/in - Systemintegration" : 1
+      },
+      "maxCount" : 30
+    },
+    "branche" : {
+      "counts" : {
+        "11" : 15,
+        "13" : 1,
+        "18" : 1,
+        "22" : 2,
+        "23" : 2,
+        "24" : 1,
+        "3" : 2,
+        "5" : 1,
+        "6" : 1,
+        "9" : 4
+      },
+      "maxCount" : 30
+    },
+    "arbeitszeit" : {
+      "counts" : {
+        "vz" : 30
+      },
+      "maxCount" : 30
+    },
+    "eintrittsdatum" : {
+      "counts" : {
+        "10_01_01-now" : 3,
+        "23_08_01-23_09_01" : 11,
+        "23_09_01-23_10_01" : 16
+      },
+      "maxCount" : 30
+    },
+    "corona" : {
+      "counts" : {
+        "false" : 30
+      },
+      "maxCount" : 30
+    },
+    "zeitarbeit" : {
+      "counts" : {
+        "false" : 30
+      },
+      "maxCount" : 30
+    }
+  }
+}
