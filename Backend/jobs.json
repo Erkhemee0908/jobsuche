@@ -87,13 +87,6 @@
       },
       "maxCount" : 30
     },
-    "ausbildungsart" : {
-      "counts" : {
-        "0" : 29,
-        "1" : 1
-      },
-      "maxCount" : 30
-    },
     "veroeffentlichtseit" : {
       "counts" : {
         "1" : 1,
@@ -101,6 +94,13 @@
         "28" : 11,
         "7" : 1,
         "alle" : 30
+      },
+      "maxCount" : 30
+    },
+    "ausbildungsart" : {
+      "counts" : {
+        "0" : 29,
+        "1" : 1
       },
       "maxCount" : 30
     },
@@ -222,13 +222,13 @@
       },
       "maxCount" : 30
     },
-    "corona" : {
+    "zeitarbeit" : {
       "counts" : {
         "false" : 30
       },
       "maxCount" : 30
     },
-    "zeitarbeit" : {
+    "corona" : {
       "counts" : {
         "false" : 30
       },

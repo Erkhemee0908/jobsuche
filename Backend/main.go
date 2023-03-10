@@ -131,9 +131,6 @@ func writeJobsToFile(jobs []Job, filename string) error {
 		return err
 	}
 
-	// Append the CORS header to the end of the result
-	result = append(result, []byte("\nAccess-Control-Allow-Origin: file://")...)
-
 	err = os.WriteFile(filename, result, 0644)
 	if err != nil {
 		return err
