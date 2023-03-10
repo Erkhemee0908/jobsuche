@@ -68,12 +68,6 @@
       },
       "maxCount" : 30
     },
-    "pav" : {
-      "counts" : {
-        "false" : 30
-      },
-      "maxCount" : 30
-    },
     "berufsfeld" : {
       "counts" : {
         "Informatik" : 1,
@@ -81,9 +75,22 @@
       },
       "maxCount" : 30
     },
+    "pav" : {
+      "counts" : {
+        "false" : 30
+      },
+      "maxCount" : 30
+    },
     "arbeitsort" : {
       "counts" : {
         "Berlin" : 30
+      },
+      "maxCount" : 30
+    },
+    "ausbildungsart" : {
+      "counts" : {
+        "0" : 29,
+        "1" : 1
       },
       "maxCount" : 30
     },
@@ -94,13 +101,6 @@
         "28" : 11,
         "7" : 1,
         "alle" : 30
-      },
-      "maxCount" : 30
-    },
-    "ausbildungsart" : {
-      "counts" : {
-        "0" : 29,
-        "1" : 1
       },
       "maxCount" : 30
     },
