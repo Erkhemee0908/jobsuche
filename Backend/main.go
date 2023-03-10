@@ -172,7 +172,7 @@ func getJobDetail(refnum string) (string, error) {
 func sleepRandomDuration() {
 	// Generate a random duration between 1 and 10 seconds
 	rand.Seed(time.Now().UnixNano())
-	duration := time.Duration(rand.Intn(3)+1) * time.Second
+	duration := time.Duration(rand.Intn(100)+1) * time.Millisecond
 
 	// Sleep for the random duration
 	time.Sleep(duration)
