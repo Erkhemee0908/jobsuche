@@ -1,64 +1,19 @@
 package main
 
 import (
-	// Built in packages
 	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
-	"strconv"
-
 	"math/rand"
 	"net/http"
 	"os"
-
+	"strconv"
 	"time"
 
-	// Chromedp for web scraping
 	"github.com/chromedp/chromedp"
-
-	// Fyne for GUI
-
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/widget"
 )
-
-func main() {
-
-	getJobs(3)
-	fmt.Println("Got Jobs")
-
-	jobList, err := processJobs("jobs.json")
-	if err != nil {
-		panic(err)
-	}
-
-	err = writeJobsToFile(jobList, "jobList.json")
-	if err != nil {
-		panic(err)
-	}
-
-	fmt.Println("Number of jobs processed:", len(jobList))
-
-	fmt.Println("Starting application...")
-	myApp := app.New()
-	myWindow := myApp.NewWindow("Hello, World!")
-	myLabel := widget.NewLabel("Number of jobs processed: " + strconv.Itoa(len(jobList)))
-	myContainer := container.New(layout.NewVBoxLayout(), myLabel)
-	myWindow.SetContent(myContainer)
-	myWindow.ShowAndRun()
-
-}
-
-type Job struct {
-	Titel       string `json:"titel"`
-	Refnum      string `json:"refnr"`
-	Arbeitgeber string `json:"arbeitgeber"`
-	Description string `json:"description"`
-}
 
 // This function retrieves job data from a specific URL and writes the response body to a file called "jobs.json".
 func getJobs(jobNum ...int) {
