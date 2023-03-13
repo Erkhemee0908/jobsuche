@@ -1,6 +1,27 @@
 {
   "stellenangebote" : [ {
     "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Fachinformatiker:in für Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1193050751-S",
+    "arbeitsort" : {
+      "plz" : "10179",
+      "ort" : "Berlin",
+      "strasse" : "Brückenstr. 5a",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5129194,
+        "lon" : 13.4175987
+      },
+      "entfernung" : "1"
+    },
+    "arbeitgeber" : "IGEPA Business- und IT-Services GmbH",
+    "aktuelleVeroeffentlichungsdatum" : "2023-02-03",
+    "modifikationsTimestamp" : "2023-02-06T08:52:47.853",
+    "eintrittsdatum" : "2023-08-01",
+    "hashId" : "jPXbx9oy3SJ_jxeXAhXjvNR-s2-mIrToGrGAZ7yL2rM="
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
     "titel" : "Fachinformatiker/in - Anwendungsentwicklung (m/w/d)",
     "refnr" : "10000-1191950043-S",
     "arbeitsort" : {
@@ -23,29 +44,179 @@
     "hashId" : "gkvFrZtzTsSpZduV_eGrYbWUFMQmIc91KNRab4YX4d4="
   }, {
     "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
-    "titel" : "Fachinformatiker:in für Anwendungsentwicklung (m/w/d)",
-    "refnr" : "10000-1193050751-S",
+    "titel" : "Auszubildender zum Fachinformatiker Anwendungsentwicklung (m/w/d)",
+    "refnr" : "11858-5010934-STA-S",
     "arbeitsort" : {
-      "plz" : "10179",
+      "plz" : "10559",
       "ort" : "Berlin",
-      "strasse" : "Brückenstr. 5a",
       "region" : "Berlin",
       "land" : "Deutschland",
       "koordinaten" : {
-        "lat" : 52.5129194,
-        "lon" : 13.4175987
+        "lat" : 52.5297597,
+        "lon" : 13.3500728
+      },
+      "entfernung" : "6"
+    },
+    "arbeitgeber" : "Beta Systems Software AG",
+    "aktuelleVeroeffentlichungsdatum" : "2023-03-13",
+    "modifikationsTimestamp" : "2023-03-13T10:42:17.972",
+    "eintrittsdatum" : "2023-03-13",
+    "hashId" : "oruL8ecJ5D0TpNSBLLmAgGU5E9P22TsyzP9RSUAd-KE=",
+    "externeUrl" : "https://www.stellenanzeigen.de/job/5010934/?utm_id=ba&utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=Free&subkategorie=197X&campaign=ba"
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Fachinformatiker/in für Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1192881998-S",
+    "arbeitsort" : {
+      "plz" : "10243",
+      "ort" : "Berlin",
+      "strasse" : "Gubener Str. 47",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.512135,
+        "lon" : 13.4485405
+      },
+      "entfernung" : "2"
+    },
+    "arbeitgeber" : "Moving Intelligence GmbH",
+    "aktuelleVeroeffentlichungsdatum" : "2023-01-24",
+    "modifikationsTimestamp" : "2023-01-24T11:15:15.541",
+    "eintrittsdatum" : "2023-09-01",
+    "logoHashId" : "9HHvemSFhKHYK6YOPXpsJJxWmYUV4E81J05iubcYuMI=",
+    "hashId" : "DTn8OlSWAWlpE3H2RpwRBPAaYrs7PvziXjg-NRGPP48="
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Auszubildende/r zum/r Fachinformatikerin / Fachinformatiker Anwendungsentwicklung (w/m/d)",
+    "refnr" : "11858-4968698-STA-S",
+    "arbeitsort" : {
+      "plz" : "10589",
+      "ort" : "Berlin",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5272551,
+        "lon" : 13.3060169
+      },
+      "entfernung" : "8"
+    },
+    "arbeitgeber" : "Berliner Stadtreinigungsbetriebe (BSR)",
+    "aktuelleVeroeffentlichungsdatum" : "2023-03-13",
+    "modifikationsTimestamp" : "2023-03-13T10:24:52.137",
+    "eintrittsdatum" : "2023-03-13",
+    "hashId" : "Rktxm4FgaJ6KeMHXh0VQsvkAxqrgGlbJcHxE-x5cdpw=",
+    "externeUrl" : "https://www.stellenanzeigen.de/job/4968698/?utm_id=ba&utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=Free&subkategorie=197X&campaign=ba"
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Ausbildung als Fachinformatiker/in - Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1193285017-S",
+    "arbeitsort" : {
+      "plz" : "10115",
+      "ort" : "Berlin",
+      "strasse" : "Invalidenstr. 34",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5308131,
+        "lon" : 13.3836542
+      },
+      "entfernung" : "4"
+    },
+    "arbeitgeber" : "Pixup Media GmbH",
+    "aktuelleVeroeffentlichungsdatum" : "2023-02-21",
+    "modifikationsTimestamp" : "2023-02-21T10:04:28.785",
+    "eintrittsdatum" : "2023-08-01",
+    "hashId" : "qY8u67IdP88x5YsLLfXUJq81jxpxFyRKwxi_FV9znkU="
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Fachinformatiker für Anwendungsentwicklung (m/w/d) (2023)",
+    "refnr" : "10000-1191182823-S",
+    "arbeitsort" : {
+      "plz" : "10179",
+      "ort" : "Berlin",
+      "strasse" : "Neue Jüdenstr. 1",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5154771,
+        "lon" : 13.410722
       },
       "entfernung" : "1"
     },
-    "arbeitgeber" : "IGEPA Business- und IT-Services GmbH",
-    "aktuelleVeroeffentlichungsdatum" : "2023-02-03",
-    "modifikationsTimestamp" : "2023-02-06T08:52:47.853",
-    "eintrittsdatum" : "2023-08-01",
-    "hashId" : "jPXbx9oy3SJ_jxeXAhXjvNR-s2-mIrToGrGAZ7yL2rM="
+    "arbeitgeber" : "Berliner Wasserbetriebe",
+    "aktuelleVeroeffentlichungsdatum" : "2022-09-21",
+    "modifikationsTimestamp" : "2023-02-28T10:11:58.739",
+    "eintrittsdatum" : "2023-09-01",
+    "logoHashId" : "HCYb5vsB-Ci2Ya-WaPGmWVSiOWMQmMLma4cyntpfu9E=",
+    "hashId" : "1RrVs_tKbTgqsNQPk49ykhpJrfN0bdsBT1xnf5pQqtg="
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Fachinformatiker/in für Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1193382384-S",
+    "arbeitsort" : {
+      "plz" : "10553",
+      "ort" : "Berlin",
+      "strasse" : "Kaiserin-Augusta-Allee 104-106",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5256484,
+        "lon" : 13.3209196
+      },
+      "entfernung" : "7"
+    },
+    "arbeitgeber" : "Samuelson Kassensysteme GmbH (Berlin)",
+    "aktuelleVeroeffentlichungsdatum" : "2023-02-28",
+    "modifikationsTimestamp" : "2023-03-06T09:18:07.997",
+    "eintrittsdatum" : "2023-09-01",
+    "hashId" : "0840vuM8aGH137cdjNwoRB4Q1pX8DJb-ghalOS229EE="
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Ausbildung Fachinformatiker Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1193325602-S",
+    "arbeitsort" : {
+      "plz" : "10997",
+      "ort" : "Berlin",
+      "ortsteil" : "Kreuzberg",
+      "strasse" : "Schlesische Str. 26",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.4979688,
+        "lon" : 13.4482263
+      },
+      "entfernung" : "2"
+    },
+    "arbeitgeber" : "form4 GmbH & Co. KG",
+    "aktuelleVeroeffentlichungsdatum" : "2023-02-23",
+    "modifikationsTimestamp" : "2023-02-23T11:36:40.594",
+    "eintrittsdatum" : "2023-09-01",
+    "hashId" : "2igbxVD0A93sGV7wrX5YRhrXpuT71B-fsu0z4ak6-nc="
+  }, {
+    "beruf" : "Fachinformatiker/in - Anwendungsentwicklung",
+    "titel" : "Fachinformatiker/in - Anwendungsentwicklung (m/w/d)",
+    "refnr" : "10000-1192698164-S",
+    "arbeitsort" : {
+      "plz" : "13353",
+      "ort" : "Berlin",
+      "strasse" : "Westhafenstr. 1",
+      "region" : "Berlin",
+      "land" : "Deutschland",
+      "koordinaten" : {
+        "lat" : 52.5374522,
+        "lon" : 13.3415536
+      },
+      "entfernung" : "6"
+    },
+    "arbeitgeber" : "EES GmbH Entwicklung Elektronischer Systeme",
+    "aktuelleVeroeffentlichungsdatum" : "2023-01-11",
+    "modifikationsTimestamp" : "2023-01-11T15:13:42.73",
+    "eintrittsdatum" : "2023-09-01",
+    "hashId" : "nTd_4-QPCByf5EPmDQxT_sNFgDWjruHN1bf2NUdlUsw="
   } ],
   "maxErgebnisse" : 30,
   "page" : 1,
-  "size" : 2,
+  "size" : 10,
   "woOutput" : {
     "bereinigterOrt" : "Berlin",
     "suchmodus" : "UMKREISSUCHE",
@@ -96,10 +267,11 @@
     },
     "veroeffentlichtseit" : {
       "counts" : {
-        "1" : 1,
+        "0" : 2,
+        "1" : 2,
         "14" : 5,
         "28" : 11,
-        "7" : 1,
+        "7" : 3,
         "alle" : 30
       },
       "maxCount" : 30
@@ -217,18 +389,19 @@
     "eintrittsdatum" : {
       "counts" : {
         "10_01_01-now" : 3,
+        "23_03_01-23_04_01" : 2,
         "23_08_01-23_09_01" : 11,
         "23_09_01-23_10_01" : 16
       },
       "maxCount" : 30
     },
-    "zeitarbeit" : {
+    "corona" : {
       "counts" : {
         "false" : 30
       },
       "maxCount" : 30
     },
-    "corona" : {
+    "zeitarbeit" : {
       "counts" : {
         "false" : 30
       },

@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"math/rand"
@@ -40,7 +41,7 @@ type Job struct {
 // TODO: Allow getJobs function to recieve a parameter for the number of jobs to retrieve, make default 2
 func getJobs() {
 
-	url := "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?size=2&angebotsart=4&was=Fachinformatiker%2Fin%20Anwendungsentwicklung&wo=Berlin&umkreis=10"
+	url := "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?size=10&angebotsart=4&was=Fachinformatiker%2Fin%20Anwendungsentwicklung&wo=Berlin&umkreis=10"
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
@@ -146,6 +147,10 @@ func getJobDetail(refnum string) (string, error) {
 	ctx, cancel := chromedp.NewContext(context.Background())
 	defer cancel()
 
+	// Set a timeout of 5 seconds for the entire process.
+	ctx, cancel = context.WithTimeout(ctx, 5*time.Second)
+	defer cancel()
+
 	// Navigate to the URL you want to scrape.
 	err := chromedp.Run(ctx, chromedp.Navigate(url))
 	if err != nil {
@@ -153,13 +158,24 @@ func getJobDetail(refnum string) (string, error) {
 	}
 
 	// Wait for the element with refnum "jobdetails-beschreibung" to be visible.
-	err = chromedp.Run(ctx, chromedp.WaitVisible("#jobdetails-beschreibung"))
+	err = chromedp.Run(ctx, chromedp.WaitVisible("#jobdetails-titel"))
 	if err != nil {
 		return "", err
 	}
 
-	// Get the content of the element with refnum "jobdetails-beschreibung".
 	var html string
+
+	// Wait for the element with refnum "jobdetails-beschreibung" to be visible.
+	err = chromedp.Run(ctx, chromedp.WaitVisible("#jobdetails-beschreibung"))
+	if err != nil {
+		if errors.Is(err, context.DeadlineExceeded) {
+
+			return "N/A", nil
+		}
+		return "", err
+	}
+
+	// Get the content of the element with refnum "jobdetails-beschreibung".
 	err = chromedp.Run(ctx, chromedp.InnerHTML("#jobdetails-beschreibung", &html, chromedp.ByID))
 	if err != nil {
 		return "", err
