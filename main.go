@@ -14,7 +14,7 @@ func main() {
 		fmt.Fprintf(w, "Hello, world!")
 	})
 
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/jobs", func(w http.ResponseWriter, r *http.Request) {
 		getJobs(3)
 		fmt.Println("Got Jobs")
 
