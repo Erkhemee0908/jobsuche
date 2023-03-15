@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
+	"os"
 )
 
 func main() {
@@ -10,6 +12,13 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Hello, world!")
 	})
+
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	log.Printf("Listening on port %s...", port)
+	log.Fatal(http.ListenAndServe(":"+port, nil))
 	// getJobs(3)
 	// fmt.Println("Got Jobs")
 
@@ -25,5 +34,4 @@ func main() {
 
 	// fmt.Println("Number of jobs processed:", len(jobList))
 
-	http.ListenAndServe(":8080", nil)
 }
