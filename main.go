@@ -16,13 +16,10 @@ func main() {
 
 	http.HandleFunc("/jobs", func(w http.ResponseWriter, r *http.Request) {
 		getJobs(3)
-		fmt.Println("Got Jobs")
-
 		jobList, err := processJobs("jobs.json")
 		if err != nil {
 			panic(err)
 		}
-
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(jobList)
 	})
