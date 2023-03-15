@@ -137,23 +137,23 @@ func processJobs(file string) ([]Job, error) {
 // The function marshals the slice of Job structs into JSON format with indentation.
 // It then writes the JSON data to a file with the given filename and file permissions.
 // If there are no errors, the function returns a nil error.
-func writeJobsToFile(jobs []Job, filename string) error {
+// func writeJobsToFile(jobs []Job, filename string) error {
 
-	// Marshal the slice of Job structs into JSON format with indentation.
-	result, err := json.MarshalIndent(jobs, "", "    ")
-	if err != nil {
-		return err
-	}
+// 	// Marshal the slice of Job structs into JSON format with indentation.
+// 	result, err := json.MarshalIndent(jobs, "", "    ")
+// 	if err != nil {
+// 		return err
+// 	}
 
-	// Write the JSON data to a file with the given filename and file permissions.
-	err = os.WriteFile(filename, result, 0644)
-	if err != nil {
-		return err
-	}
+// 	// Write the JSON data to a file with the given filename and file permissions.
+// 	err = os.WriteFile(filename, result, 0644)
+// 	if err != nil {
+// 		return err
+// 	}
 
-	// If there are no errors, return a nil error.
-	return nil
-}
+// 	// If there are no errors, return a nil error.
+// 	return nil
+// }
 
 func getJobDetail(refnum string) (string, error) {
 	url := "https://www.arbeitsagentur.de/jobsuche/jobdetail/" + refnum

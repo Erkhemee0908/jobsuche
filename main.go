@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -13,25 +14,24 @@ func main() {
 		fmt.Fprintf(w, "Hello, world!")
 	})
 
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		getJobs(3)
+		fmt.Println("Got Jobs")
+
+		jobList, err := processJobs("jobs.json")
+		if err != nil {
+			panic(err)
+		}
+
+		w.Header().Set("Content-Type", "application/json")
+		json.NewEncoder(w).Encode(jobList)
+	})
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
 	}
 	log.Printf("Listening on port %s...", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
-	// getJobs(3)
-	// fmt.Println("Got Jobs")
-
-	// jobList, err := processJobs("jobs.json")
-	// if err != nil {
-	// 	panic(err)
-	// }
-
-	// err = writeJobsToFile(jobList, "jobList.json")
-	// if err != nil {
-	// 	panic(err)
-	// }
-
-	// fmt.Println("Number of jobs processed:", len(jobList))
 
 }
